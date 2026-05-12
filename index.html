@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ESDI Service — Entreprise Événementielle | Angré 7ème Tranche</title>
+  <meta name="description"
+    content="ESDI Service, votre partenaire événementiel de confiance à Angré 7ème Tranche. Organisation de mariages, événements d'entreprise, cérémonies et animations. Contactez-nous au 0789951575." />
+  <meta name="keywords"
+    content="événementiel Abidjan, organisation mariage Angré, ESDI Service, entreprise événementielle Côte d'Ivoire" />
+  <link rel="stylesheet" href="style.css" />
+  <!-- Icônes légères (SVG inline) -->
+</head>
+
+<body>
+
+  <!-- ===================== NAVBAR ===================== -->
+  <nav id="navbar" role="navigation" aria-label="Navigation principale">
+    <div class="nav-logo">ESDI<span>Service</span></div>
+    <ul class="nav-links">
+      <li><a href="#hero" id="nav-accueil">Accueil</a></li>
+      <li><a href="#apropos" id="nav-apropos">À Propos</a></li>
+      <li><a href="#services" id="nav-services">Services</a></li>
+      <li><a href="#contact" id="nav-contact">Contact</a></li>
+    </ul>
+    <button id="burger" aria-label="Menu mobile" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- Menu mobile -->
+  <div id="mobile-menu" role="menu">
+    <a href="#hero" id="mob-accueil">Accueil</a>
+    <a href="#apropos" id="mob-apropos">À Propos</a>
+    <a href="#services" id="mob-services">Services</a>
+    <a href="#contact" id="mob-contact">Contact</a>
+  </div>
+
+  <!-- ===================== HERO ===================== -->
+  <section id="hero" aria-label="Présentation principale">
+    <!-- Particules -->
+    <div class="hero-particles" aria-hidden="true">
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+    </div>
+
+    <div class="hero-content">
+      <div class="hero-badge">Entreprise Événementielle</div>
+      <h1>
+        Des événements qui<br />
+        laissent une <em>empreinte</em>
+      </h1>
+      <p>
+        ESDI Service crée des moments inoubliables pour vos cérémonies,
+        mariages et événements d'entreprise. Chaque détail est soigné,
+        chaque instant est parfait.
+      </p>
+      <div class="hero-btns">
+        <a href="#services" class="btn-primary" id="hero-btn-services">Nos Services</a>
+        <a href="#contact" class="btn-outline" id="hero-btn-contact">Nous Contacter</a>
+      </div>
+    </div>
+
+    <!-- Scroll indicator -->
+    <div class="scroll-indicator" aria-hidden="true">
+      <span>Découvrir</span>
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+        stroke-linecap="round" stroke-linejoin="round">
+        <path d="M12 5v14M5 12l7 7 7-7" />
+      </svg>
+    </div>
+  </section>
+
+  <!-- ===================== À PROPOS ===================== -->
+  <section id="apropos" aria-label="À propos de ESDI Service">
+    <div class="apropos-grid">
+
+      <!-- Visuel -->
+      <div class="apropos-visuel reveal">
+        <div class="apropos-img-wrapper"></div>
+        <div class="apropos-badge">
+          <span class="chiffre">100%</span>
+          <span class="label">Satisfaction client</span>
+        </div>
+      </div>
+
+      <!-- Texte -->
+      <div class="apropos-texte reveal">
+        <span class="section-label">À Propos de Nous</span>
+        <h2 class="section-title">L'excellence au cœur de<br /> chaque <span>événement</span></h2>
+        <div class="divider"></div>
+        <p class="section-subtitle">
+          Basée à <strong>Angré 7ème Tranche</strong>, ESDI Service est une entreprise
+          événementielle passionnée qui transforme vos idées en expériences
+          mémorables. Notre équipe dévouée prend en charge chaque aspect de
+          votre événement avec professionnalisme et créativité.
+        </p>
+
+        <div class="valeurs">
+          <div class="valeur-card" id="valeur-creativite">
+            <div class="valeur-icon bleu">🎨</div>
+            <div>
+              <h4>Créativité</h4>
+              <p>Des concepts uniques et personnalisés pour chaque client.</p>
+            </div>
+          </div>
+          <div class="valeur-card" id="valeur-excellence">
+            <div class="valeur-icon marron">⭐</div>
+            <div>
+              <h4>Excellence</h4>
+              <p>Un service haut de gamme à chaque étape de votre projet.</p>
+            </div>
+          </div>
+          <div class="valeur-card" id="valeur-ponctualite">
+            <div class="valeur-icon bleu">⏱️</div>
+            <div>
+              <h4>Ponctualité</h4>
+              <p>Respect strict des délais et des engagements pris.</p>
+            </div>
+          </div>
+          <div class="valeur-card" id="valeur-ecoute">
+            <div class="valeur-icon marron">🤝</div>
+            <div>
+              <h4>Écoute</h4>
+              <p>Vos attentes sont notre priorité absolue.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===================== SERVICES ===================== -->
+  <section id="services" aria-label="Nos services événementiels">
+
+    <div class="services-header reveal">
+      <span class="section-label">Ce Que Nous Faisons</span>
+      <h2 class="section-title">Nos <span>Services</span></h2>
+      <div class="divider"></div>
+      <p class="section-subtitle">
+        De la sonorisation parfaite à la location de matériel haut de gamme,
+        jusqu'à immortaliser chaque instant — ESDI Service s'occupe de tout.
+      </p>
+    </div>
+
+    <!-- ── SERVICE 1 : Sonorisation & Animation ── -->
+    <div class="service-bloc reveal" id="service-sono">
+      <div class="service-bloc-image">
+        <img
+          src="https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?auto=format&fit=crop&w=1000&q=85"
+          alt="DJ professionnel avec jeux de lumières colorés" loading="lazy" />
+        <div class="service-bloc-num">01</div>
+        <div class="service-bloc-overlay"></div>
+      </div>
+      <div class="service-bloc-content">
+        <span class="service-tag">🎵 Sonorisation &amp; Animation</span>
+        <h3>Une ambiance qui fait vibrer chaque instant</h3>
+        <p>
+          Chez <strong>ESDI Service</strong>, nous croyons qu'un bon événement commence par
+          une sonorisation impeccable. Grâce à un matériel audio professionnel de dernière
+          génération et des animateurs passionnés, nous créons une atmosphère qui électrise
+          la salle et fait de chaque moment un souvenir gravé à jamais. Des basses qui font
+          trembler la piste de danse aux discours clairs et puissants — votre son est entre
+          de bonnes mains.
+        </p>
+        <p style="font-size:0.88rem; color:var(--marron); font-weight:600; margin-bottom:0.8rem;">
+          Événements que nous sonorisons :
+        </p>
+        <div class="event-types">
+          <span class="event-chip">💍 Mariages</span>
+          <span class="event-chip">🤲 Dots</span>
+          <span class="event-chip">🍼 Baptêmes</span>
+          <span class="event-chip">🎂 Anniversaires</span>
+          <span class="event-chip">🥂 Afterwork</span>
+          <span class="event-chip">🤝 Moments d'échange</span>
+        </div>
+        <a href="#contact" class="btn-service" id="btn-sono">Demander un devis →</a>
+      </div>
+    </div>
+
+    <!-- ── SERVICE 2 : Location de Matériel ── -->
+    <div class="service-bloc reversed reveal" id="service-location">
+      <div class="service-bloc-image">
+        <img
+          src="https://images.unsplash.com/photo-1519167758481-83f550bb49b3?auto=format&fit=crop&w=1000&q=85"
+          alt="Tables élégamment dressées pour une réception de mariage" loading="lazy" />
+        <div class="service-bloc-num">02</div>
+        <div class="service-bloc-overlay"></div>
+      </div>
+      <div class="service-bloc-content">
+        <span class="service-tag" style="background:rgba(124,74,30,0.1);color:var(--marron);">🪑 Location de Matériel</span>
+        <h3>L'élégance à portée de main pour votre réception</h3>
+        <p>
+          Un cadre réussi commence par un matériel de qualité. ESDI Service met à votre
+          disposition une large gamme d'équipements soigneusement entretenus et esthétiques,
+          pour transformer n'importe quel espace en un lieu de réception digne des plus
+          grandes occasions. Livraison, installation et reprise assurées par notre équipe —
+          vous n'avez qu'à profiter de votre fête.
+        </p>
+        <div class="location-items">
+          <div class="location-item" id="loc-treteaux">
+            <span>🪵</span>
+            <p>Tréteaux</p>
+          </div>
+          <div class="location-item" id="loc-baches">
+            <span>⛺</span>
+            <p>Bâches</p>
+          </div>
+          <div class="location-item" id="loc-chaises">
+            <span>🪑</span>
+            <p>Chaises</p>
+          </div>
+          <div class="location-item" id="loc-tables">
+            <span>🍽️</span>
+            <p>Tables</p>
+          </div>
+          <div class="location-item" id="loc-couverts">
+            <span>🥄</span>
+            <p>Couverts</p>
+          </div>
+          <div class="location-item" id="loc-qualite">
+            <span>✨</span>
+            <p>Qualité Premium</p>
+          </div>
+        </div>
+        <a href="#contact" class="btn-service" id="btn-location"
+          style="background:linear-gradient(135deg,var(--marron),var(--marron-clair));">
+          Voir les disponibilités →
+        </a>
+      </div>
+    </div>
+
+    <!-- ── SERVICE 3 : Photo & Vidéo ── -->
+    <div class="service-bloc reveal" id="service-media">
+      <div class="service-bloc-image">
+        <img
+          src="https://images.unsplash.com/photo-1554080353-a576cf803bda?auto=format&fit=crop&w=1000&q=85"
+          alt="Photographe professionnel capturant un moment unique" loading="lazy" />
+        <div class="service-bloc-num">03</div>
+        <div class="service-bloc-overlay"></div>
+      </div>
+      <div class="service-bloc-content">
+        <span class="service-tag">📸 Photo &amp; Vidéo Professionnelles</span>
+        <h3>Immortalisez chaque émotion, pour l'éternité</h3>
+        <p>
+          Les plus beaux moments de votre vie méritent d'être capturés avec l'excellence
+          qu'ils méritent. Notre équipe de photographes et vidéastes experts capture chaque
+          regard complice, chaque éclat de rire, chaque larme de joie avec un œil artistique
+          affûté. Des clichés époustouflants aux films cinématographiques, nous vous livrons
+          des souvenirs qui traverseront les générations et feront briller vos yeux à chaque
+          visionnage.
+        </p>
+        <div class="photo-features">
+          <div class="photo-feature" id="feat-photo">
+            <span>📷</span>
+            <div>
+              <strong>Reportage photo artistique</strong>
+              <p>Prises de vue haute résolution, retouches professionnelles incluses</p>
+            </div>
+          </div>
+          <div class="photo-feature" id="feat-video">
+            <span>🎬</span>
+            <div>
+              <strong>Film événementiel cinématographique</strong>
+              <p>Montage vidéo soigné avec bande son musicale émotionnelle</p>
+            </div>
+          </div>
+          <div class="photo-feature" id="feat-drone">
+            <span>🚁</span>
+            <div>
+              <strong>Prises de vue aériennes par drone</strong>
+              <p>Des perspectives spectaculaires pour sublimer votre lieu</p>
+            </div>
+          </div>
+          <div class="photo-feature" id="feat-album">
+            <span>🖼️</span>
+            <div>
+              <strong>Albums &amp; Tirages premium</strong>
+              <p>Vos plus beaux clichés imprimés et reliés avec élégance</p>
+            </div>
+          </div>
+        </div>
+        <a href="#contact" class="btn-service" id="btn-media">Réserver un photographe →</a>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- ===================== GALERIE ===================== -->
+  <section id="galerie" aria-label="Notre galerie événementielle">
+    <div class="galerie-header reveal">
+      <span class="section-label">Notre Galerie</span>
+      <h2 class="section-title">Des moments qui <span>inspirent</span></h2>
+      <div class="divider"></div>
+      <p style="color:rgba(255,255,255,0.7); font-size:1rem;">Chaque image raconte une histoire. La vôtre sera la prochaine.</p>
+    </div>
+    <div class="galerie-grid">
+      <div class="galerie-item galerie-tall reveal" id="gal-1">
+        <img src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=700&q=85" alt="Mariage élégant salle décorée" loading="lazy"/>
+        <div class="galerie-overlay"><span>💍 Mariage</span></div>
+      </div>
+      <div class="galerie-item reveal" id="gal-2">
+        <img src="https://images.unsplash.com/photo-1530103862676-de8c9debad1d?auto=format&fit=crop&w=700&q=85" alt="Fête d'anniversaire avec lumières" loading="lazy"/>
+        <div class="galerie-overlay"><span>🎂 Anniversaire</span></div>
+      </div>
+      <div class="galerie-item reveal" id="gal-3">
+        <img src="https://images.unsplash.com/photo-1540575467063-178a50c2df87?auto=format&fit=crop&w=700&q=85" alt="Événement corporate avec scène" loading="lazy"/>
+        <div class="galerie-overlay"><span>🏢 Événement Corporate</span></div>
+      </div>
+      <div class="galerie-item galerie-wide reveal" id="gal-4">
+        <img src="https://images.unsplash.com/photo-1478146896981-b80fe463b330?auto=format&fit=crop&w=1200&q=85" alt="Réception de mariage luxueuse" loading="lazy"/>
+        <div class="galerie-overlay"><span>🤲 Dot & Cérémonie</span></div>
+      </div>
+      <div class="galerie-item reveal" id="gal-5">
+        <img src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=700&q=85" alt="Soirée afterwork ambiance festive" loading="lazy"/>
+        <div class="galerie-overlay"><span>🥂 Afterwork</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CHIFFRES CLÉS ===================== -->
+  <section id="chiffres" aria-label="Nos chiffres clés">
+    <div class="chiffres-grid">
+      <div class="chiffre-item reveal" id="chiffre-events">
+        <span class="nombre" data-target="250">0</span>
+        <span class="libelle">Événements réalisés</span>
+      </div>
+      <div class="chiffre-item reveal" id="chiffre-clients">
+        <span class="nombre" data-target="180">0</span>
+        <span class="libelle">Clients satisfaits</span>
+      </div>
+      <div class="chiffre-item reveal" id="chiffre-annees">
+        <span class="nombre" data-target="5">0</span>
+        <span class="libelle">Années d'expérience</span>
+      </div>
+      <div class="chiffre-item reveal" id="chiffre-partenaires">
+        <span class="nombre" data-target="40">0</span>
+        <span class="libelle">Partenaires de confiance</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== TÉMOIGNAGES ===================== -->
+  <section id="temoignages" aria-label="Témoignages clients">
+    <div class="temoignages-header reveal">
+      <span class="section-label">Ce Qu'ils Disent</span>
+      <h2 class="section-title">Nos <span>Clients</span> témoignent</h2>
+      <div class="divider"></div>
+      <p class="section-subtitle">La confiance de nos clients est notre plus belle récompense.</p>
+    </div>
+    <div class="temoignages-grid">
+      <div class="temoignage-card reveal" id="temo-1">
+        <div class="temo-stars">⭐⭐⭐⭐⭐</div>
+        <p>"ESDI Service a rendu notre mariage absolument magique. La sonorisation était parfaite, la décoration à couper le souffle et l'équipe d'une gentillesse rare. Merci du fond du cœur !"</p>
+        <div class="temo-auteur">
+          <div class="temo-avatar">A</div>
+          <div>
+            <strong>Awa &amp; Kofi</strong>
+            <span>Mariage — Angré 7ème Tranche</span>
+          </div>
+        </div>
+      </div>
+      <div class="temoignage-card reveal" id="temo-2">
+        <div class="temo-stars">⭐⭐⭐⭐⭐</div>
+        <p>"Pour le baptême de notre fils, nous avons fait confiance à ESDI Service. Le matériel était impeccable, livré à l'heure, et la sonorisation a créé une ambiance incroyable. Je recommande vivement !"</p>
+        <div class="temo-auteur">
+          <div class="temo-avatar" style="background:var(--marron);">F</div>
+          <div>
+            <strong>Fatoumata D.</strong>
+            <span>Baptême — Cocody</span>
+          </div>
+        </div>
+      </div>
+      <div class="temoignage-card reveal" id="temo-3">
+        <div class="temo-stars">⭐⭐⭐⭐⭐</div>
+        <p>"Notre afterwork d'entreprise était un vrai succès grâce à ESDI Service. Photos cinématographiques, ambiance au top et une équipe ultra réactive. On refera appel à eux sans hésiter !"</p>
+        <div class="temo-auteur">
+          <div class="temo-avatar" style="background:var(--bleu-clair);">Y</div>
+          <div>
+            <strong>Yao Brice</strong>
+            <span>Afterwork Corporate — Plateau</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CONTACT ===================== -->
+  <section id="contact" aria-label="Contactez ESDI Service">
+    <div class="contact-grid">
+
+      <!-- Infos de contact -->
+      <div class="contact-info reveal">
+        <span class="section-label">Prenons Contact</span>
+        <h2>Parlons de votre<br /> <span style="color:var(--marron)">prochain événement</span></h2>
+        <div class="divider"></div>
+        <p>
+          Vous avez un projet en tête ? Notre équipe est disponible pour
+          vous accompagner et faire de votre vision une réalité.
+          Contactez-nous dès aujourd'hui !
+        </p>
+
+        <div class="info-item" id="info-tel">
+          <div class="info-icon">📞</div>
+          <div>
+            <strong>Téléphone</strong>
+            <p>
+              <a href="tel:+2250789951575" style="color:var(--bleu-moyen); font-weight:600;">
+                07 89 95 15 75
+              </a>
+            </p>
+          </div>
+        </div>
+
+        <div class="info-item" id="info-adresse">
+          <div class="info-icon">📍</div>
+          <div>
+            <strong>Adresse</strong>
+            <p>Angré 7ème Tranche, Abidjan<br />Côte d'Ivoire</p>
+          </div>
+        </div>
+
+        <div class="info-item" id="info-horaires">
+          <div class="info-icon">🕐</div>
+          <div>
+            <strong>Disponibilité</strong>
+            <p>Lundi – Samedi : 8h – 20h<br />Dimanche sur rendez-vous</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Formulaire -->
+      <div class="reveal">
+        <div class="contact-form" id="contact-form-wrapper">
+          <form id="contact-form" novalidate>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="prenom">Prénom</label>
+                <input type="text" id="prenom" name="prenom" placeholder="Votre prénom" required />
+              </div>
+              <div class="form-group">
+                <label for="nom">Nom</label>
+                <input type="text" id="nom" name="nom" placeholder="Votre nom" required />
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="telephone">Téléphone</label>
+              <input type="tel" id="telephone" name="telephone" placeholder="Ex: 07 00 00 00 00" required />
+            </div>
+
+            <div class="form-group">
+              <label for="type-event">Type d'événement</label>
+              <select id="type-event" name="type-event" required>
+                <option value="" disabled selected>Sélectionnez un type</option>
+                <option value="mariage">Mariage & Cérémonie</option>
+                <option value="corporate">Événement d'entreprise</option>
+                <option value="fete">Fête & Célébration</option>
+                <option value="decoration">Décoration uniquement</option>
+                <option value="animation">Animation & Spectacle</option>
+                <option value="autre">Autre</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Votre message</label>
+              <textarea id="message" name="message"
+                placeholder="Décrivez votre événement : date prévue, nombre d'invités, lieu, etc." required></textarea>
+            </div>
+
+            <button type="submit" class="btn-submit" id="btn-envoyer">
+              ✉️ &nbsp;Envoyer ma demande
+            </button>
+          </form>
+
+          <!-- Message de succès -->
+          <div class="form-success" id="form-success">
+            <div class="check">🎉</div>
+            <h3>Demande envoyée !</h3>
+            <p>Merci de nous avoir contactés. Notre équipe vous répondra très rapidement.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer>
+    <div class="footer-logo">ESDI<span>Service</span></div>
+    <div class="footer-line"></div>
+    <p>Angré 7ème Tranche, Abidjan — Côte d'Ivoire</p>
+    <p style="margin-top:0.3rem;">
+      <a href="tel:+2250789951575" style="color:var(--marron-clair);">07 89 95 15 75</a>
+    </p>
+    <p style="margin-top:1.2rem; font-size:0.78rem; opacity:0.5;">
+      &copy; <span id="annee"></span> ESDI Service — Tous droits réservés.
+    </p>
+  </footer>
+
+  <!-- Bouton WhatsApp flottant -->
+  <a href="https://wa.me/2250789951575?text=Bonjour%20ESDI%20Service%2C%20je%20souhaite%20en%20savoir%20plus%20sur%20vos%20services." id="whatsapp-btn" target="_blank" rel="noopener noreferrer" aria-label="Contactez-nous sur WhatsApp">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="26" height="26"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+    <span>WhatsApp</span>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
